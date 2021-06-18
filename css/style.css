@@ -108,16 +108,18 @@ font-weight: bold;
 
 color: white;
 
-font-size: 48px;
+font-size: 56px;
 
 margin-bottom: 33px;
+
+font-weight: 500;
 }
 
 .header_content p{
 
 color: #999999;
 
-font-size: 22px;
+font-size: 23px;
 
 margin-bottom: 91px;
 }
@@ -149,12 +151,11 @@ border: 1px solid #999999;
     text-transform: uppercase;
     letter-spacing: 1px;
     padding: 12px 18px;
-    border: 1px solid;
     
     border: 1px solid #999999;
     color: white;
     margin-left: 20px;
-    transition: 0.10 all ease-in-out;
+    transition: 0.5s all ease-in-out;
 }
 
 .btn-feature:hover{
@@ -172,11 +173,7 @@ border: 1px solid #999999;
 
 width: 100%;
 }
-.feture_section{
-padding: 50px 0px;
-
-
-}
+.feture_section{padding: 50px 0px;margin-bottom: 100px;}
 
 .headingr{
 
@@ -196,8 +193,9 @@ font-weight: bold;
 
 .headingr h1{
 
+font-weight: 500;
 
-
+font-size: 50px;
 }
 
 .headingr span{
@@ -300,11 +298,15 @@ font-size: 15px;
 .mobile2_css h3{
 
 color: #008ed6;
+
+font-weight: bold;
 }
 
 .mobile2_css h1{
 
 margin-bottom: 30px;
+
+font-weight: 400;
 }
 
 .mobile2_css p{
@@ -313,7 +315,7 @@ color: #999999;
 
 margin-bottom: 30px;
 
-font-size: 19px;
+font-size: 23px;
 }
 
 .mobile2_css span{
@@ -388,7 +390,7 @@ padding: 0;
 
 display: contents;
 
-color: black;
+color: #1b1b1b;
 
 text-align: left;
 
@@ -399,13 +401,17 @@ text-align: left;
 /* padding-left: 46px; */
 
 font-size: 14px;
-
 }
 
 .iconio2 ul li i{
 
 margin-right: 15px;
+
 width: 15px;
+
+height: 9px;
+
+color: #44ace1;
 }
 
 
@@ -421,13 +427,17 @@ width: 15px;
 .moboiak_dbb h5{
 
 color: #329dda;
+
+font-weight: bold;
+
+letter-spacing: 1px;
 }
 
 .moboiak_dbb h1{
 
+font-weight: 600;
 
-
-
+margin-bottom: 30px;
 }
 
 
@@ -435,11 +445,8 @@ color: #329dda;
     display: inline-block;
     height: 3px;
     width: 50px;
-    
     position: relative;
-
-
-
+    margin-bottom: 30px;
 }
 
 .moboiak_dbb span::before{
@@ -489,9 +496,9 @@ color: #329dda;
 
 .moboiak_dbb p{
 
+font-size: 24px;
 
-
-
+color: #999999;
 }
 
 .bobiak_img{
